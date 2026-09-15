@@ -308,7 +308,7 @@ function serializeMarkdown(profile) {
     `- **Button 2:** ${p.button2Label || '_(empty)_'} \u2014 ${p.button2Url || '_(no url)_'}`,
     '',
     '---',
-    '_Exported from MultiRP \u2014 https://github.com/AlarkiusJay/MultiRPCustomizer_'
+    '_Exported from MultiRP \u2014 https://github.com/AlarklynCord/MultiRPCustomizer_'
   ];
   return lines.join('\n');
 }

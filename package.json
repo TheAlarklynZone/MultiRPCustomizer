@@ -100,7 +100,7 @@
     "publish": [
       {
         "provider": "github",
-        "owner": "AlarkiusJay",
+        "owner": "AlarklynCord",
         "repo": "MultiRPCustomizer",
         "releaseType": "release"
       }
