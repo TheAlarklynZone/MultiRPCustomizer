@@ -100,7 +100,7 @@
     "publish": [
       {
         "provider": "github",
-        "owner": "AlarklynCord",
+        "owner": "TheAlarklynZone",
         "repo": "MultiRPCustomizer",
         "releaseType": "release"
       }

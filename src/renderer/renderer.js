@@ -1350,7 +1350,7 @@ function setupUpdatesView() {
 
   repoLink.onclick = (e) => {
     e.preventDefault();
-    window.multirp.openExternal('https://github.com/AlarklynCord/MultiRPCustomizer/releases');
+    window.multirp.openExternal('https://github.com/TheAlarklynZone/MultiRPCustomizer/releases');
   };
 
   // Subscribe to live state

@@ -319,7 +319,7 @@ function createWindow() {
         <p><b>Reason:</b> ${desc}</p>
         <p><b>URL:</b> ${url}</p>
         <p><b>Resolved index:</b> ${indexPath}</p>
-        <p>Please open an issue with this text at github.com/AlarklynCord/MultiRPCustomizer</p>
+        <p>Please open an issue with this text at github.com/TheAlarklynZone/MultiRPCustomizer</p>
       </body></html>`;
       mainWindow.loadURL('data:text/html;charset=utf-8,' + encodeURIComponent(html));
     } catch (_) {}
@@ -776,7 +776,7 @@ function patchApplicationDescription(token, description) {
         'Content-Type': 'application/json',
         'Content-Length': Buffer.byteLength(payload),
         'Authorization': 'Bot ' + token,
-        'User-Agent': 'MultiRP (https://github.com/AlarklynCord/MultiRPCustomizer, ' + app.getVersion() + ')'
+        'User-Agent': 'MultiRP (https://github.com/TheAlarklynZone/MultiRPCustomizer, ' + app.getVersion() + ')'
       }
     }, (res) => {
       let body = '';
@@ -1185,7 +1185,7 @@ async function fetchAppAssets(clientId) {
   const url = `https://discord.com/api/v10/oauth2/applications/${clientId}/assets`;
   const res = await fetch(url, {
     headers: {
-      'User-Agent': `MultiRP/${app.getVersion()} (+https://github.com/AlarklynCord/MultiRPCustomizer)`,
+      'User-Agent': `MultiRP/${app.getVersion()} (+https://github.com/TheAlarklynZone/MultiRPCustomizer)`,
       'Accept': 'application/json'
     }
   });
